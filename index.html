@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <link href="Styles.css" rel="stylesheet" type="text/css"/>
+    
+<header>
+    <h1>Consumer Loan Portal</h1>
+    <p>Simple • Fast • Secure</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="#about">About</a>
+    <a href="#registration">Registration</a>
+    <a href="AdminServlet">Admin</a>
+</nav>
+
+<section class="hero">
+    <h1>Apply for a Consumer Loan Easily</h1>
+    <p>Get quick approvals and low-interest rates for your financial needs.</p>
+</section>
+
+<section class="container" id="registration">
+    <h2>Loan Registration Form</h2>
+    <form action="RegistrationServlet" method="post">
+        <input type="text" name="name" placeholder="Full Name" required>
+        <input type="email" name="email" placeholder="Email Address" required>
+        <input type="number" name="phone" placeholder="Phone Number" required>
+        <input type="number" name="amount" placeholder="Loan Amount ($)" required>
+        <textarea name="purpose" rows="4" placeholder="Purpose of Loan" required></textarea>
+        <button type="submit">Submit Application</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2025 Consumer Loan Portal | All Rights Reserved</p>
+    <p>Contact us: 
+       <a href="mailto:support@consumerloan.com">support@consumerloan.com</a> | 
+       <a href="tel:+18001234567">+1 800 123 4567</a></p>
+</footer>
+
+</body>
+</html>
+
+
